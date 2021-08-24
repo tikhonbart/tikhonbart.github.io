@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #365d94;
+	margin:0 auto;
+	width: 100%;
+	
+	
+}
+ .head, .footer{
+	margin: 0 auto;
+}
+.head{
+	height: 24em;
+	background: no-repeat  url(pictures/mediatsiya.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	background-size: 50em;
+	justify-content: center;
+	align-items: center;
+}
+.mxW{
+	max-width: 70%;
+}
+.header{
+	display: flex;
+	align-items: center;
+	margin: 0 10%;
+	height: 60px;
+	border-bottom: 2px solid black;
+	padding: 0 10px;
+}
+.logo{
+	margin-right: auto;
+}
+.logo img{
+	border-radius: 10px;
+}
+.contacts{
+	margin-left: auto;
+}
+.contacts a{
+	padding: 0 7px;
+	text-decoration: none;
+}
+.contacts a:hover{
+	color: #EEE;
+}
+.header2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    align-items: center;
+	margin-top: 20px;
+	letter-spacing: 5px;
+}
+
+.main{
+	position: relative;
+	background-color: #EEE;
+}
+.content{
+	padding: 5%;
+}
+.con1{
+	margin-bottom: 10px;
+	border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 5.4px 4.5px 10px 0 rgb(0 0 0 / 5%);
+}
+.main h2{
+	margin-left: 10px;
+}
+.con2{
+	flex-direction: column;
+	height: 20em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10em;
+}
+.ss{
+	color: #eee;
+	text-decoration: none;
+	padding: 30px;
+	background-color: #222;
+	border-radius: 50px;
+}
+.con2 h2{
+	margin: 0;
+}
+.con2 h3{
+	text-align: center;
+	margin: 25px 0;
+}
+.con2 a:hover{
+	color: #111;
+	background-color: #eee;
+}
+.footer{
+	height: 25vh;
+	background-color: #EEE;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 10px;
+	text-align: center;
+}
+.footer ul{
+	list-style: none;
+	padding: 0;
+
+}
+.footer li{
+	padding-bottom: 10px;
+}
+.footer a{
+	text-decoration: none;
+	color: black;
+}
+.footer a:hover{
+	color: #666;
+}
