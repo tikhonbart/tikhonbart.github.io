@@ -79,7 +79,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 10em;
+	padding: 0 10%;
 }
 .ss{
 	color: #eee;
@@ -100,6 +100,7 @@ body{
 	background-color: #eee;
 }
 .footer{
+	position: relative;
 	height: 25vh;
 	background-color: #EEE;
 	display: flex;
