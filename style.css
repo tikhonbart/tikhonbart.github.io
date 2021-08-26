@@ -101,7 +101,7 @@ body{
 }
 .footer{
 	position: relative;
-	height: 25vh;
+	
 	background-color: #EEE;
 	display: flex;
 	align-items: center;
